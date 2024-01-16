@@ -13,5 +13,20 @@ public class Variable {
         System.out.println(name);
         System.out.println(umur);
         System.out.println(alamat);
+
+        // Var harus langsung inisiasi data!!!
+        var firstName = "Ahmad Dzulfikar";
+        var lastName = "As Shavy";
+        var semester = 2;
+
+        // Tidak boleh seperti ini !!!!!!!!!!
+        // var company;
+        // company = "Microsoft"
+
+        // Final tidak bisa diubah datanya, akan menyebabkan error
+        final String programming_leanguage = "Java";
+
+        // programming_leanguage = "python"; // error
+
     }
 }
