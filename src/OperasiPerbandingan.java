@@ -3,6 +3,11 @@ public class OperasiPerbandingan {
         int value1 = 101;
         int value2 = 100;
 
-        
+        System.out.println(value1 > value2);
+        System.out.println(value1 < value2);
+        System.out.println(value1 >= value2);
+        System.out.println(value1 <= value2);
+        System.out.println(value1 != value2);
+
     }
 }

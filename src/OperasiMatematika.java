@@ -25,8 +25,8 @@ public class OperasiMatematika {
 
         String amba = "nasi goreng";
         System.out.println(amba);
-        
-        // Unary
+
+        // Unary Operator
         int d = 10;
         int e = -5;
 
