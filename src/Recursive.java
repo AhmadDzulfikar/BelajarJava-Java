@@ -1,8 +1,10 @@
 public class Recursive {
     public static void main(String[] args) {
-        System.out.println("Factorial with forloop: " + factorial(5));
-        System.out.println();
-        System.out.println("Factorial with recursive: " + factorialWithRecursive(7));
+        // System.out.println("Factorial with forloop: " + factorial(5));
+        // System.out.println();
+        // System.out.println("Factorial with recursive: " + factorialWithRecursive(7));
+        // System.out.println();
+        errorRecursive(10);
     }
 
     // Factorial with forloop
@@ -21,7 +23,16 @@ public class Recursive {
         } else {
             return value * factorialWithRecursive(value - 1);
         }
-        
+    }
+
+    // Try to make error from recursive
+    static void errorRecursive(int value) {
+        if (value == 1) {
+            System.out.println("Selesai");
+        } else {
+            System.out.println("Loop " + value);
+            errorRecursive(value - 1);
+        }
     }
 }
 
